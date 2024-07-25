@@ -1,0 +1,47 @@
+---
+include:
+  - docassemble.AssemblyLine:assembly_line.yml
+  - docassemble.VTSharedYMLFile:VTSharedYMLFile.yml
+---
+modules:
+  - docassemble.ALToolbox.misc
+---
+comment: |
+  Global interview metadata
+metadata:
+  title: >-
+    Guided Interviews
+  short title: >-
+    Guided Interviews
+  description: |-
+    VTCourtForms guided interviews by Legal Services Vermont
+  help_page_url: >-
+    https://vtlawhelp.org/VTCourtForms
+  help_page_title: >-
+    VTCourtForms
+  authors:
+    - VTCourtForms guided interview by Legal Services Vermont / VTLawHelp.org website
+---
+# customized feedback form
+code: |   
+  feedback_form = "docassemble.VTFeedback:VTfeedback.yml"
+---
+id: intro screen
+mandatory: True
+question: |
+  VTCourtForms Guided Interviews
+subquestion: |
+  <div class="da-button-set da-field-buttons ">
+  
+  <a class="btn btn-da btn-light btn-da btn-da-custom " href="https://apps.vtcourtforms.org/start/rfa/"><span><i class="fa-solid fa-file-alt fa-sm" style="color:var(--primary);" aria-hidden="true"></i></span> Relief from Abuse order</a>
+
+  <a class="btn btn-da btn-light btn-da btn-da-custom " href="https://apps.vtcourtforms.org/start/VTDivorce/"><span><i class="fa-solid fa-file-alt fa-sm" style="color:var(--primary);" aria-hidden="true"></i></span> Divorce, legal separation, dissolution</h6></a>
+
+  <a class="btn btn-da btn-light btn-da btn-da-custom " href="https://vtlawhelp.org/vtcourtforms"><span><i class="fa-solid fa-circle-info fa-sm" style="color:var(--primary);" aria-hidden="true"></i></span> Learn about VTCourtForms</h6></a>
+  
+  </div>
+
+  <p style="margin-top:50px";>${ intro_vtcourtforms_created_by }</p>
+  
+  Visit the [VTLawHelp.org website](https://vtlawhelp.org) for information about civil legal issues.
+---
