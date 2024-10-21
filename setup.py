@@ -54,7 +54,7 @@ setup(name='docassemble.VTCourtFormsRootPage',
       url='https://docassemble.org',
       packages=find_packages(),
       namespace_packages=['docassemble'],
-      install_requires=['docassemble.ALToolbox>=0.10.1', 'docassemble.VTFeedback', 'docassemble.VTSharedYMLFile'],
+      install_requires=['docassemble.ALToolbox>=0.11.1', 'docassemble.VTFeedback', 'docassemble.VTSharedYMLFile'],
       zip_safe=False,
       package_data=find_package_data(where='docassemble/VTCourtFormsRootPage/', package='docassemble.VTCourtFormsRootPage'),
      )
