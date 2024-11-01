@@ -10,9 +10,9 @@ comment: |
   Global interview metadata
 metadata:
   title: >-
-    A Tool to Guide You Through Vermont Court Forms
+    A tool to guide you through court forms and legal forms
   short title: >-
-    Court Forms Tool
+    Guided forms tool
   description: |-
     VTCourtForms guided interviews by Legal Services Vermont
   help_page_url: >-
@@ -38,7 +38,7 @@ subquestion: |
 
   <a class="btn btn-da btn-light btn-da btn-da-custom " href="https://apps.vtcourtforms.org/start/VTFeeWaiver/"><span><i class="fa-solid fa-file-alt fa-sm" style="color:var(--primary);" aria-hidden="true"></i></span> Fee waiver</h6></a>
 
-  <a class="btn btn-da btn-light btn-da btn-da-custom " href="https://vtlawhelp.org/vtcourtforms"><span><i class="fa-solid fa-circle-info fa-sm" style="color:var(--primary);" aria-hidden="true"></i></span> Learn about VTCourtForms</h6></a>
+  <a class="btn btn-da btn-light btn-da btn-da-custom " href="https://vtlawhelp.org/vtcourtforms"><span><i class="fa-solid fa-circle-info fa-sm" style="color:var(--primary);" aria-hidden="true"></i></span> About VTCourtForms</h6></a>
   
   </div>
 
