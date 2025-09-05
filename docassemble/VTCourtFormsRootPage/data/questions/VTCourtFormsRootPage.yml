@@ -41,7 +41,6 @@ subquestion: |
   <a class="btn btn-da btn-light btn-da btn-da-custom " href="https://vtlawhelp.org/vtcourtforms"><span><i class="fa-solid fa-circle-info fa-sm" style="color:var(--primary);" aria-hidden="true"></i></span> About VTCourtForms</h6></a>
   
   </div>
-  <div style="border: dotted 2px #5A4AA4; padding: 8px 14px 18px 14px; margin-top: 22px; margin-bottom: 6px;"><strong>Please note</strong>: VTCourtForms will not be available on Friday, September 5, at 12 p.m. for about an hour.</div>
 
   <p style="margin-top:50px";>${ intro_vtcourtforms_created_by }</p>
   
