@@ -36,6 +36,8 @@ subquestion: |
 
   <a class="btn btn-da btn-light btn-da btn-da-custom " href="https://apps.vtcourtforms.org/start/VTDivorce/"><span><i class="fa-solid fa-file-alt fa-sm" style="color:var(--primary);" aria-hidden="true"></i></span> Divorce, separation, dissolution</h6></a>
 
+  <a class="btn btn-da btn-light btn-da btn-da-custom " href="https://apps.vtcourtforms.org/start/VTSmallClaims/"><span><i class="fa-solid fa-file-alt fa-sm" style="color:var(--primary);" aria-hidden="true"></i></span> Start small claims case</h6></a>
+
   <a class="btn btn-da btn-light btn-da btn-da-custom " href="https://apps.vtcourtforms.org/start/VTFeeWaiver/"><span><i class="fa-solid fa-file-alt fa-sm" style="color:var(--primary);" aria-hidden="true"></i></span> Fee waiver</h6></a>
 
   <a class="btn btn-da btn-light btn-da btn-da-custom " href="https://vtlawhelp.org/vtcourtforms"><span><i class="fa-solid fa-circle-info fa-sm" style="color:var(--primary);" aria-hidden="true"></i></span> About VTCourtForms</h6></a>

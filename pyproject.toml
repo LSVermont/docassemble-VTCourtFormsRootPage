@@ -1,3 +1,32 @@
+license = "MIT"
+license-files = [
+    "LICENSE",
+]
+
 [build-system]
-requires = ["setuptools"]
+requires = [
+    "setuptools==80.9.0",
+]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "docassemble.VTCourtFormsRootPage"
+version = "0.0.1"
+description = "A docassemble extension."
+readme = "README.md"
+authors = [
+    { name = "VTCourtForms / Legal Services Vermont", email = "ksurette@legalservicesvt.org" },
+]
+dependencies = [
+    "docassemble.ALToolbox @ git+https://github.com/SuffolkLITLab/docassemble-ALToolbox.git@main",
+    "docassemble.VTFeedback @ git+https://github.com/VTskier/docassemble-VTFeedback.git@main",
+    "docassemble.VTSharedYMLFile @ git+https://github.com/LSVermont/docassemble-VTSharedYMLFile.git@main",
+]
+
+[project.urls]
+Homepage = "https://docassemble.org"
+
+[tool.setuptools.packages.find]
+where = [
+    ".",
+]
