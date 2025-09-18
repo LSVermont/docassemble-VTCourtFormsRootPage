@@ -50,11 +50,10 @@ setup(name='docassemble.VTCourtFormsRootPage',
       long_description_content_type='text/markdown',
       author='VTCourtForms / Legal Services Vermont',
       author_email='ksurette@legalservicesvt.org',
-      license='The MIT License (MIT)',
+      license='MIT',
       url='https://docassemble.org',
       packages=find_namespace_packages(),
       install_requires=['docassemble.ALToolbox @ git+https://github.com/SuffolkLITLab/docassemble-ALToolbox.git@main', 'docassemble.VTFeedback @ git+https://github.com/VTskier/docassemble-VTFeedback.git@main', 'docassemble.VTSharedYMLFile @ git+https://github.com/LSVermont/docassemble-VTSharedYMLFile.git@main'],
       zip_safe=False,
       package_data=find_package_data(where='docassemble/VTCourtFormsRootPage/', package='docassemble.VTCourtFormsRootPage'),
      )
-
