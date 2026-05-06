@@ -48,6 +48,8 @@ subquestion: |
   
   </div>
 
+  <p style="margin-top:50px";><i class="fa-solid fa-triangle-exclamation fa-lg" style="color:var(--primary);" aria-hidden="true"></i>  <strong>NOTE: VTCourtForms will not be available on Friday morning, May 8, starting at 7 a.m. We expect it will be available again by 12 p.m. at the latest.</strong></p>
+  
   <p style="margin-top:50px";>${ intro_vtcourtforms_created_by }</p>
   
   Visit the [VTLawHelp.org website](https://vtlawhelp.org) for information about civil legal issues.
